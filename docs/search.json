@@ -6,14 +6,28 @@
       "description": "Some additional details about the blog",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2022-11-23T12:37:39-05:00"
+      "last_modified": "2022-11-23T13:43:00-05:00"
     },
     {
       "path": "index.html",
       "title": "Twilight's World",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2022-11-23T12:37:40-05:00"
+      "last_modified": "2022-11-23T13:43:02-05:00"
+    },
+    {
+      "path": "post1.html",
+      "title": "Welcome to Demo Distill",
+      "description": "Welcome to our new blog, Demo Distill. We hope you enjoy \nreading what we have to say!\n",
+      "author": [
+        {
+          "name": "Nora Jones",
+          "url": "https://example.com/norajones"
+        }
+      ],
+      "date": "07-27-2020",
+      "contents": "\n\n\n\n",
+      "last_modified": "2022-11-23T13:43:04-05:00"
     }
   ],
   "collections": ["posts/posts.json"]

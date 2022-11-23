@@ -1,19 +1,19 @@
 [
   {
-    "path": "posts/welcome/",
-    "title": "Welcome to Twilight",
-    "description": "Welcome to our new blog, Twilight. We hope you enjoy \nreading what we have to say!",
+    "path": "posts/_photos/2022-11-23-november-2021/",
+    "title": "November 2021",
+    "description": "Twilight traveled from shelter to her new home during the Thanksgiving!",
     "author": [
       {
-        "name": "Nora Jones",
-        "url": "https://example.com/norajones"
+        "name": "Ray",
+        "url": {}
       }
     ],
-    "date": "2022-11-23",
+    "date": "2021-11-27",
     "categories": [],
-    "contents": "\n\n\n\n",
+    "contents": "\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill at https://rstudio.github.io/distill.\n\n\n\n",
     "preview": {},
-    "last_modified": "2022-11-23T12:28:36-05:00",
+    "last_modified": "2022-11-23T13:38:02-05:00",
     "input_file": {}
   }
 ]

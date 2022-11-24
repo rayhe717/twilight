@@ -4,6 +4,15 @@ description: |
   Some additional details about the blog
 ---
 
+```{r, echo=FALSE}
+library(cowsay)
+```
+
+```{r, echo = FALSE}
+say("Hello world!")
+```
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+
 ```

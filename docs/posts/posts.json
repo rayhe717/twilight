@@ -1,19 +1,30 @@
 [
   {
-    "path": "posts/_photos/2022-11-23-november-2021/",
-    "title": "November 2021",
-    "description": "Twilight traveled from shelter to her new home during the Thanksgiving!",
-    "author": [
-      {
-        "name": "Ray",
-        "url": {}
-      }
+    "path": "posts/_photos/2022-11-25-recent-update/",
+    "title": "2022 Recent Update",
+    "description": "I am such a lucky girl I guess.",
+    "author": [],
+    "date": "2022-11-25",
+    "categories": [
+      "daily"
     ],
-    "date": "2021-11-27",
-    "categories": [],
-    "contents": "\n\n\n\n",
-    "preview": {},
-    "last_modified": "2022-11-24T21:21:41-05:00",
+    "contents": "\nAfter staying at hospital for a weekend, I survived from a severe inner ear infection. I had three different kinds of medicine to facilitate my health conditions, but for sure I was getting better. I even ate three small cans of wet food in only one day after heading back to my home. My humans took good care of me, and now I am kind of back to normal. I am still waiting for an appointment for followup, and I hope everything will be alright.\n\n\n\n\n\n\n\n\n\n\n\n\n",
+    "preview": "posts/_photos/2022-11-25-recent-update/images/cat4.jpeg",
+    "last_modified": "2022-11-25T02:17:49-05:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2022-11-25-november-2021/",
+    "title": "November 2021",
+    "description": "I traveled from shelter to my new home during the Thanksgiving!",
+    "author": [],
+    "date": "2022-11-25",
+    "categories": [
+      "daily"
+    ],
+    "contents": "\n\n\n\n\nHi! My name is Twilight! I was born on September 9th 2021 and lived as a stray cat for a while before sent to the shelter. I still remembered the moment when I met my humans, and I knew that’s the magic of destiny.\n\n\n\n\n\n\n\n\n\n\n",
+    "preview": "posts/2022-11-25-november-2021/images/cat4.jpeg",
+    "last_modified": "2022-11-25T02:17:30-05:00",
     "input_file": {}
   }
 ]

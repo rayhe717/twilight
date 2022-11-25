@@ -24,9 +24,9 @@ html {
   /*-- Main font colors --*/
   --title-color:     #ffe7bb;
   --header-color:    #ffe7bb;
-  --body-color:      #58332c;
-  --aside-color:     #58332c;
-  --fig-cap-color:   #58332c;
+  --body-color:      rgba(0, 0, 0, 0.8);
+  --aside-color:     rgba(0, 0, 0, 0.8);
+  --fig-cap-color:   rgba(0, 0, 0, 0.8);
   /*-- Specify custom fonts ~~~ must be imported above   --*/
   --heading-font:    'Libre Baskerville', serif;
   --mono-font:        'Amatic SC', cursive;
@@ -37,7 +37,7 @@ html {
 /*-- ARTICLE METADATA --*/
 d-byline {
   --heading-size:    1rem;
-  --heading-color:   rgba(0, 0, 0, 0.5);
+  --heading-color:   rgba(0, 0, 0, 0.8);
   --body-size:       1.2rem;
   --body-color:      rgba(0, 0, 0, 0.8);
 }
@@ -51,7 +51,7 @@ d-byline {
 /*-- ARTICLE APPENDIX --*/
 d-appendix {
   --heading-size:    14px;
-  --heading-color:   rgba(0, 0, 0, 0.65);
+  --heading-color:   rgba(0, 0, 0, 0.8);
   --text-size:       0.9em;
   --text-color:      #58332c;
 }

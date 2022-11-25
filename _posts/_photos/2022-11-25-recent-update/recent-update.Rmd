@@ -1,0 +1,34 @@
+---
+title: "2022 Recent Update"
+description: |
+  I am such a lucky girl I guess. 
+preview: images/cat4.jpeg
+output:
+  distill::distill_article:
+    self_contained: false
+categories:
+  - daily
+---
+After staying at hospital for a weekend, I survived from a severe inner ear infection. I had three different kinds of medicine to facilitate my health conditions, but for sure I was getting better. I even ate three small cans of wet food in only one day after heading back to my home. My humans took good care of me, and now I am kind of back to normal. I am still waiting for an appointment for followup, and I hope everything will be alright. 
+
+<aside>
+```{r, echo=FALSE}
+knitr::include_graphics("images/cat1.png")
+```
+</aside>
+
+```{r, echo=FALSE}
+knitr::include_graphics("images/cat2.png")
+```
+
+```{r, echo=FALSE}
+knitr::include_graphics("images/cat3.png")
+```
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+
+

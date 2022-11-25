@@ -107,7 +107,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","site","listing"]}},"value":[{"type":"character","attributes":{},"value":["Twilight's World"]},{"type":"character","attributes":{},"value":["distill::distill_website"]},{"type":"character","attributes":{},"value":["posts"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","site","listing","categories"]}},"value":[{"type":"character","attributes":{},"value":["Twilight's World"]},{"type":"character","attributes":{},"value":["distill::distill_website"]},{"type":"character","attributes":{},"value":["posts"]},{"type":"character","attributes":{},"value":["daily"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2175,14 +2175,14 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     --body-size:       1rem;
     --code-size:       14px;
     --aside-size:      16px;
-    --fig-cap-size:    20px;
+    --fig-cap-size:    10px;
     --font-size:       12px;
     /*-- Main font colors --*/
-    --title-color:     #bccad7;
-    --header-color:    #bccad7;
-    --body-color:      #58332c;
-    --aside-color:     #58332c;
-    --fig-cap-color:   #58332c;
+    --title-color:     #ffe7bb;
+    --header-color:    #ffe7bb;
+    --body-color:      rgba(0, 0, 0, 0.8);
+    --aside-color:     rgba(0, 0, 0, 0.8);
+    --fig-cap-color:   rgba(0, 0, 0, 0.8);
     /*-- Specify custom fonts ~~~ must be imported above   --*/
     --heading-font:    'Libre Baskerville', serif;
     --mono-font:        'Amatic SC', cursive;
@@ -2193,7 +2193,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   /*-- ARTICLE METADATA --*/
   d-byline {
     --heading-size:    1rem;
-    --heading-color:   rgba(0, 0, 0, 0.5);
+    --heading-color:   rgba(0, 0, 0, 0.8);
     --body-size:       1.2rem;
     --body-color:      rgba(0, 0, 0, 0.8);
   }
@@ -2207,7 +2207,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   /*-- ARTICLE APPENDIX --*/
   d-appendix {
     --heading-size:    14px;
-    --heading-color:   rgba(0, 0, 0, 0.65);
+    --heading-color:   rgba(0, 0, 0, 0.8);
     --text-size:       0.9em;
     --text-color:      #58332c;
   }
@@ -2219,14 +2219,14 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     --title-size:       20px;
     --text-color:       #58332c;
     --text-size:        12px;
-    --hover-color:      #fdebc7;
+    --hover-color:      #ffe7bb;
     --bkgd-color:       #ee8361;
   }
 
   .distill-site-footer {
     --text-color:       #58332c;
     --text-size:        12px;
-    --hover-color:      #fdebc7;
+    --hover-color:      #ffe7bb;
     --bkgd-color:       #ee8361;
   }
 
@@ -2568,24 +2568,58 @@ function init_posts_list() {
 
 
 
-<div class="posts-container posts-apply-limit l-page">
+<div class="posts-container posts-with-sidebar posts-apply-limit l-screen-inset">
 <div class="posts-list">
 <h1 class="posts-list-caption" data-caption="Twilight&#39;s World">Twilight's World</h1>
-<a href="posts/_photos/2022-11-23-november-2021/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
+<a href="posts/_photos/2022-11-25-recent-update/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["daily"]}</script>
 <div class="metadata">
-<div class="publishedDate">Nov. 27, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Ray</div>
+<div class="publishedDate">Nov. 25, 2022</div>
+<div class="dt-authors"></div>
 </div>
+<div class="thumbnail">
+<img src="posts/_photos/2022-11-25-recent-update/images/cat4.jpeg"/>
 </div>
-<div class="thumbnail"></div>
 <div class="description">
-<h2>November 2021</h2>
-<div class="dt-tags"></div>
-<p>Twilight traveled from shelter to her new home during the Thanksgiving!</p>
+<h2>2022 Recent Update</h2>
+<div class="dt-tags">
+<div class="dt-tag">daily</div>
+</div>
+<p>I am such a lucky girl I guess.</p>
 </div>
 </a>
+<a href="posts/2022-11-25-november-2021/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["daily"]}</script>
+<div class="metadata">
+<div class="publishedDate">Nov. 25, 2022</div>
+<div class="dt-authors"></div>
+</div>
+<div class="thumbnail">
+<img src="posts/2022-11-25-november-2021/images/cat4.jpeg"/>
+</div>
+<div class="description">
+<h2>November 2021</h2>
+<div class="dt-tags">
+<div class="dt-tag">daily</div>
+</div>
+<p>I traveled from shelter to my new home during the Thanksgiving!</p>
+</div>
+</a>
+</div>
+<div class="posts-sidebar">
+<div class="sidebar-section categories">
+<h3>Categories</h3>
+<ul>
+<li>
+<a href="#category:articles">articles</a>
+<span class="category-count">(2)</span>
+</li>
+<li>
+<a href="#category:daily">daily</a>
+<span class="category-count">(2)</span>
+</li>
+</ul>
+</div>
 </div>
 <div class="posts-more">
 <a href="#">More articles &raquo;</a>
@@ -2596,6 +2630,9 @@ function init_posts_list() {
 <div class="d-title">
 <h1>Twilight’s World</h1>
 <!--radix_placeholder_categories-->
+<div class="dt-tags">
+<div class="dt-tag">daily</div>
+</div>
 <!--/radix_placeholder_categories-->
 
 </div>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>Twilight</title>
+    <link>https://twilight-world.netlify.app</link>
+    <atom:link href="https://twilight-world.netlify.app/index.xml" rel="self" type="application/rss+xml"/>
+    <description>Twilight
+</description>
+    <image>
+      <title>Twilight</title>
+      <url>https://twilight-world.netlify.app/images/favicon.ico</url>
+      <link>https://twilight-world.netlify.app</link>
+    </image>
+    <generator>Distill</generator>
+    <lastBuildDate>Fri, 25 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>2022 Recent Update</title>
+      <link>https://twilight-world.netlify.app/posts/_photos/2022-11-25-recent-update</link>
+      <description>I am such a lucky girl I guess.</description>
+      <category>daily</category>
+      <guid>https://twilight-world.netlify.app/posts/_photos/2022-11-25-recent-update</guid>
+      <pubDate>Fri, 25 Nov 2022 00:00:00 +0000</pubDate>
+      <media:content url="https://twilight-world.netlify.app/posts/_photos/2022-11-25-recent-update/images/cat4.jpeg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>November 2021</title>
+      <link>https://twilight-world.netlify.app/posts/2022-11-25-november-2021</link>
+      <description>I traveled from shelter to my new home during the Thanksgiving!</description>
+      <category>daily</category>
+      <guid>https://twilight-world.netlify.app/posts/2022-11-25-november-2021</guid>
+      <pubDate>Fri, 25 Nov 2022 00:00:00 +0000</pubDate>
+      <media:content url="https://twilight-world.netlify.app/posts/2022-11-25-november-2021/images/cat4.jpeg" medium="image" type="image/jpeg"/>
+    </item>
+  </channel>
+</rss>

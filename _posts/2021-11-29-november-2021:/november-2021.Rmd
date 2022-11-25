@@ -16,7 +16,7 @@ categories:
 knitr::include_graphics("images/cat2.png")
 ```
 
-Hi! My name is Twilight! I was born on September 9th 2021 and lived as a stray cat for a while before sent to the shelter. I still remembered the moment when I met my humans, and I knew that's the magic of destiny. 
+Hi! My name is Twilight! I was born on September 2nd, 2021, and lived as a stray cat for a while before being sent to the shelter. I still remember the moment I met my humans, knowing that was the magic of destiny. 
 :::
 
 

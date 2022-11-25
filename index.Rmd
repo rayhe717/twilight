@@ -2,6 +2,4 @@
 title: "Twilight's World"
 site: distill::distill_website
 listing: posts 
-categories:
-  - daily
 ---

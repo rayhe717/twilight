@@ -16,13 +16,13 @@ categories:
 knitr::include_graphics("images/peter.jpeg")
 ```
 
-* My older sister was also once a stray cat. She was brought to home when she was only two months old. Back to then, she was so skinny that looked like an ET. Therefore, her name is ET. 
+* My older sister was also once a stray cat. She was brought home when she was only two months old. Back then, she was so skinny that she looked like an ET. Therefore, her name is ET. 
 
 ```{r, echo=FALSE}
 knitr::include_graphics("images/et.jpeg")
 ```
 
-* My little sister, HuiHui, was a Ragdoll. She was abandoned by one of my human's brother so she moved to live with my other siblings. 
+* My little sister, Huihui, was a Ragdoll. One of my humans' brothers abandoned her, so she moved to live with my other siblings. 
 
 ```{r, echo=FALSE}
 knitr::include_graphics("images/huihui.jpeg")

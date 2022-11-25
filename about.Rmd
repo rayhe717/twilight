@@ -1,16 +1,22 @@
 ---
-title: "About this blog"
+title: "MeowMeow"
 description: |
-  Some additional details about the blog
+  Twilight wish you a wonderful day!
 ---
 
 ```{r, echo=FALSE}
 library(cowsay)
 ```
 
+![](images/cat1.jpeg)
+
+<aside>
+
 ```{r, echo = FALSE}
 say("Hello world!")
 ```
+
+</aside>
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)

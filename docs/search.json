@@ -2,18 +2,18 @@
   "articles": [
     {
       "path": "about.html",
-      "title": "About this blog",
-      "description": "Some additional details about the blog",
+      "title": "MeowMeow",
+      "description": "Twilight wish you a wonderful day!",
       "author": [],
-      "contents": "\n\n\n\n\n\n -------------- \nHello world! \n --------------\n    \\\n      \\\n        \\\n            |\\___/|\n          ==) ^Y^ (==\n            \\  ^  /\n             )=*=(\n            /     \\\n            |     |\n           /| | | |\\\n           \\| | |_|/\\\n      jgs  //_// ___/\n               \\_)\n  \n\n\n\n\n",
-      "last_modified": "2022-11-23T23:56:03-05:00"
+      "contents": "\n\n\n\n\n\n\n -------------- \nHello world! \n --------------\n    \\\n      \\\n        \\\n            |\\___/|\n          ==) ^Y^ (==\n            \\  ^  /\n             )=*=(\n            /     \\\n            |     |\n           /| | | |\\\n           \\| | |_|/\\\n      jgs  //_// ___/\n               \\_)\n  \n\n\n\n\n",
+      "last_modified": "2022-11-24T21:23:46-05:00"
     },
     {
       "path": "index.html",
       "title": "Twilight's World",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2022-11-23T13:43:02-05:00"
+      "last_modified": "2022-11-24T21:21:41-05:00"
     },
     {
       "path": "post1.html",
@@ -27,7 +27,7 @@
       ],
       "date": "07-27-2020",
       "contents": "\n\n\n\n",
-      "last_modified": "2022-11-23T13:43:04-05:00"
+      "last_modified": "2022-11-24T21:19:57-05:00"
     }
   ],
   "collections": ["posts/posts.json"]

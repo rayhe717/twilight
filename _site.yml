@@ -1,5 +1,6 @@
 name: "blogg"
 title: "Twilight"
+theme: my theme.css
 description: |
   Twilight
 output_dir: "docs"

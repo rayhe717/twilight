@@ -1,0 +1,36 @@
+---
+title: "November 2021"
+description: |
+   I traveled from shelter to my new home during the Thanksgiving!
+preview: images/cat4.jpeg
+output:
+  distill::distill_article:
+    self_contained: false
+categories:
+  - daily
+---
+
+:::float-image
+
+```{r out.width='150px', out.extra='style="float:left; padding:10px"', echo=FALSE}
+knitr::include_graphics("images/cat2.png")
+```
+
+Hi! My name is Twilight! I was born on September 9th 2021 and lived as a stray cat for a while before sent to the shelter. I still remembered the moment when I met my humans, and I knew that's the magic of destiny. 
+:::
+
+
+```{r, echo=FALSE}
+knitr::include_graphics("images/cat1.jpeg")
+```
+```{r, echo=FALSE}
+knitr::include_graphics("images/cat3.jpeg")
+```
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+
+

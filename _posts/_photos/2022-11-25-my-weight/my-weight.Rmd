@@ -1,0 +1,56 @@
+---
+title: "Weight Tracking"
+description: |
+  I am literally a "food cat". 
+Preview: images/cat3.jpeg
+output:
+   distill::distill_article:
+    self_contained: false
+categories:
+  - health
+---
+
+
+
+```{r, echo=FALSE}
+library(ggplot2)
+library(ggimage)
+library(png)
+library(grid)
+```
+
+```{r, echo=FALSE}
+cat <- readPNG("/Volumes/103MA/creativerproject/cproject/blogg/_posts/_photos/2022-11-25-my-weight/images/cat2.png")
+cat2 <- matrix(rgb(cat[,,1],cat[,,2],cat[,,3], cat[,,4] * 0.5), nrow=dim(cat)[1]) 
+```
+
+```{r, echo=FALSE}
+Weight <- c(2.9, 4.3, 6.8, 9.36, 9, 10.14)
+Age <-c(2,4,6,11,12,13)
+
+df <- data.frame(Weight,Age)
+df$image <- "/Volumes/103MA/creativerproject/cproject/blogg/_posts/_photos/2022-11-25-my-weight/images/cat1.png"
+```
+
+```{r, layout="1-page-outset", echo=FALSE}
+
+sCATter <-ggplot(data = df, aes(x = Age, y = Weight)) +
+  annotation_custom(rasterGrob(cat2, 
+                               width = unit(1,"npc"),
+                               height = unit(1,"npc")), 
+                    -Inf, Inf, -Inf, Inf) +
+  geom_image(aes(image = image), size=0.115)+
+  theme_classic() +
+  xlab("Age(Months)") +
+  ylab("Weight(lbs)") +
+  xlim(0,15)+
+  ylim(0,15)+
+  theme(plot.title = element_text(hjust = 0.5),)+
+  coord_fixed(ratio=0.9)
+sCATter
+```
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```

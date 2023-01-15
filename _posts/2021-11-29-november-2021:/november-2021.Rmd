@@ -2,6 +2,7 @@
 title: "November 2021"
 description: |
    I traveled from shelter to my new home during the Thanksgiving!
+date: "2021-11-29"
 preview: images/cat4.jpeg
 output:
   distill::distill_article:

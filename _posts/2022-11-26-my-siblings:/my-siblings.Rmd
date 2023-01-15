@@ -2,6 +2,7 @@
 title: "My Siblings"
 description: |
   In case you don't know, I am not the single child. 
+date: "2022-11-26"
 preview: "images/cover.jpeg"
 output:
   distill::distill_article:

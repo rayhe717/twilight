@@ -2,6 +2,7 @@
 title: "2022 Recent Update"
 description: |
   I am such a lucky girl I guess. 
+date: "2022-11-24"
 preview: images/cat4.jpeg
 output:
   distill::distill_article:

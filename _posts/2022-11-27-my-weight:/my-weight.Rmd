@@ -2,6 +2,7 @@
 title: "Weight Tracking"
 description: |
   I am literally a "food cat". 
+date: "2022-11-27"
 preview: images/cat3.jpeg
 output:
    distill::distill_article:
@@ -20,7 +21,7 @@ library(grid)
 ```
 
 ```{r, echo=FALSE}
-cat <- readPNG("/Volumes/103MA/creativerproject/cproject/blogg/_posts/_photos/2022-11-25-my-weight/images/cat2.png")
+cat <- readPNG("/Volumes/103MA/creativerproject/cproject/blogg/_posts/2022-11-27-my-weight:/images/cat2.png")
 cat2 <- matrix(rgb(cat[,,1],cat[,,2],cat[,,3], cat[,,4] * 0.5), nrow=dim(cat)[1]) 
 ```
 
@@ -29,7 +30,7 @@ Weight <- c(2.9, 4.3, 6.8, 9.36, 9, 10.14)
 Age <-c(2,4,6,11,12,13)
 
 df <- data.frame(Weight,Age)
-df$image <- "/Volumes/103MA/creativerproject/cproject/blogg/_posts/_photos/2022-11-25-my-weight/images/cat1.png"
+df$image <- "/Volumes/103MA/creativerproject/cproject/blogg/_posts/2022-11-27-my-weight:/images/cat1.png"
 ```
 
 ```{r, layout="1-page-outset", echo=FALSE}
